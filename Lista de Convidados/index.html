@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Convidados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>
+        Lista de Convidados
+    </h1>
+    <input id="nome1"type="text" placeholder="Insira o Nome">
+    <button id="enviar" onclick="add()">
+        Enviar
+    </button>
+    <hr>
+    <div id="nomes">
+
+    </div>
+    <hr>
+    <h1 id="convidados">
+        Lista de Convidados
+    </h1>
+    <button id="mostrar" onclick="view()">
+        Mostrar
+    </button>
+    <hr>
+    <div id="mostrarNomes">
+
+    </div>
+    <hr>
+    <button id="listaOrganizada" onclick="list()">
+        Lista Organizada
+    </button>
+    <hr>
+    <div id="lO">
+
+    </div>
+    <hr>
+    <input type="text" placeholder="Digite um nome da lista" id="palavra">
+    <button id="pesquisar" onclick="pesquise()">
+        Pesquisar
+    </button>
+    <div id="nomesEncontrados">
+
+    </div>
+    <script src="main.js">
+    </script>
+</body>
+</html>
